@@ -9,10 +9,8 @@ export default function App() {
   const[taskItems,setTaskItems] = useState([]);
 
   const onAddTask = () => {
-    // console.log(task);
     taskItems.push(task);
     setTaskItems(taskItems);
-    // setTaskItems([...taskItems,task]);
     console.log(taskItems);
     setTask(null);
   }
